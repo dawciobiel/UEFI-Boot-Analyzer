@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# uefi_boot_analyzer.py
 """
 UEFI Boot Analyzer - Comprehensive UEFI/EFI Boot Configuration Analysis Tool
 
