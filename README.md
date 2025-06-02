@@ -1,3 +1,4 @@
+```markdown
 UEFI Boot Analyzer - Comprehensive UEFI/EFI Boot Configuration Analysis Tool
 
 Description:
@@ -28,15 +29,21 @@ Requirements:
     - Platform-specific tools (bcdedit, efibootmgr, etc.)
 
 Usage Examples:
+```
+```bash
     python uefi_boot_analyzer.py                    # Basic analysis
     python uefi_boot_analyzer.py -v                 # Verbose mode
     python uefi_boot_analyzer.py -o report.json     # Save to file
     python uefi_boot_analyzer.py --help             # Show help
+```
 
-Author: dawciobiel
-GitHub: https://github.com/dawciobiel
-Date: June 02, 2025
-Version: 1.0
+- - -
+- Author: dawciobiel
+- GitHub: https://github.com/dawciobiel
+- Date: June 02, 2025
+- Version: 1.0
+- - -
+
 License: GPL (GNU General Public License)
 
 Copyright (C) 2025 dawciobiel
@@ -69,3 +76,5 @@ Technical Notes:
 
 Changelog:
     v1.0 (2025-06-02): Initial release with multi-platform support
+
+```
