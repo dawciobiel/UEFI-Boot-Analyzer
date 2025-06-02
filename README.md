@@ -1,48 +1,14 @@
+
+**UEFI Boot Analyzer** - Comprehensive UEFI/EFI Boot Configuration Analysis Tool
+
+**UEFI Hex Explorer** - A lightweight utility for analyzing UEFI firmware dumps and inspecting low-level boot configuration data.
 ```markdown
-UEFI Boot Analyzer - Comprehensive UEFI/EFI Boot Configuration Analysis Tool
 
-Description:
-    A powerful cross-platform utility for analyzing UEFI/EFI boot configurations,
-    system firmware information, and boot-related security settings. This tool
-    provides detailed insights into boot entries, Secure Boot status, EFI System
-    Partition configuration, and overall system boot health across Windows, Linux,
-    and macOS platforms.
-
-Features:
-    • UEFI/Legacy BIOS detection and identification
-    • Boot entry enumeration and analysis
-    • Secure Boot and System Integrity Protection status
-    • EFI System Partition (ESP) analysis
-    • Cross-platform compatibility (Windows/Linux/macOS)
-    • JSON report generation for automation
-    • Comprehensive error handling and logging
-    • Verbose analysis mode for troubleshooting
-
-Supported Platforms:
-    - Windows (10/11) - Uses bcdedit, PowerShell, and WMI
-    - Linux (most distributions) - Uses efibootmgr, GRUB, and sysfs
-    - macOS (Intel/Apple Silicon) - Uses bless, diskutil, and csrutil
-
-Requirements:
-    - Python 3.6 or higher
-    - Administrator/root privileges (recommended for full functionality)
-    - Platform-specific tools (bcdedit, efibootmgr, etc.)
-
-Usage Examples:
-```
-```bash
-    python uefi_boot_analyzer.py                    # Basic analysis
-    python uefi_boot_analyzer.py -v                 # Verbose mode
-    python uefi_boot_analyzer.py -o report.json     # Save to file
-    python uefi_boot_analyzer.py --help             # Show help
-```
-
-- - -
 - Author: dawciobiel
 - GitHub: https://github.com/dawciobiel
 - Date: June 02, 2025
 - Version: 1.0
-- - -
+
 
 License: GPL (GNU General Public License)
 
