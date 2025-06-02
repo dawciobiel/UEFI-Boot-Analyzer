@@ -1,3 +1,4 @@
+```markdown
 UEFI Boot Analyzer - Comprehensive UEFI/EFI Boot Configuration Analysis Tool
 
 Description:
@@ -37,8 +38,9 @@ Author: dawciobiel
 GitHub: https://github.com/dawciobiel
 Date: June 02, 2025
 Version: 1.0
-License: GPL (GNU General Public License)
 
+License:
+GPL (GNU General Public License)
 Copyright (C) 2025 dawciobiel
 
 This program is free software: you can redistribute it and/or modify
@@ -69,3 +71,4 @@ Technical Notes:
 
 Changelog:
     v1.0 (2025-06-02): Initial release with multi-platform support
+```
