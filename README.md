@@ -4,7 +4,7 @@
 **UEFI Hex Explorer** - A lightweight utility for analyzing UEFI firmware dumps and inspecting low-level boot configuration data.
 
 
-- Author: dawciobiel
+- Author: Dawid Bielecki ([dawciobiel](https://github.com/dawciobiel))
 - GitHub: https://github.com/dawciobiel
 - Date: June 02, 2025
 - Version: 1.0
