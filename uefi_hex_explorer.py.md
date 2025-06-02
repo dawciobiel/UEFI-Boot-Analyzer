@@ -91,7 +91,7 @@ uefi_backup.bin      # <- Your binary firmware/UEFI dump
 
 ## 📘 Example Output
 
-```
+```log
 === Boot Settings Analysis ===
 
 Found 3 Setup sections
