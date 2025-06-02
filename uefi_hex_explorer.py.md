@@ -1,4 +1,3 @@
-````markdown
 # UEFI Hex Explorer
 
 **A lightweight utility for analyzing UEFI firmware dumps and inspecting low-level boot configuration data.**
@@ -120,10 +119,3 @@ This project is licensed under the **GNU General Public License (GPL)**.
 You are free to use, modify, and distribute this code under the terms of the GPL.
 
 ---
-
-## 🤝 Contributions
-
-Pull requests and suggestions are welcome!
-Feel free to fork the project or open issues via [GitHub](https://github.com/dawciobiel).
-
-```
