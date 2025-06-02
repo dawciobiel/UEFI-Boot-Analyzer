@@ -2,15 +2,14 @@
 **UEFI Boot Analyzer** - Comprehensive UEFI/EFI Boot Configuration Analysis Tool
 
 **UEFI Hex Explorer** - A lightweight utility for analyzing UEFI firmware dumps and inspecting low-level boot configuration data.
-```markdown
+
 
 - Author: dawciobiel
 - GitHub: https://github.com/dawciobiel
 - Date: June 02, 2025
 - Version: 1.0
-
-
-License: GPL (GNU General Public License)
+- License:
+```markdownGPL (GNU General Public License)
 
 Copyright (C) 2025 dawciobiel
 
