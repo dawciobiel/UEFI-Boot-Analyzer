@@ -2,9 +2,7 @@
 
 **A lightweight utility for analyzing UEFI firmware dumps and inspecting low-level boot configuration data.**
 
----
-
-### Metadata
+## 📄 Metadata
 
 - **Author:** dawciobiel  
 - **GitHub:** [https://github.com/dawciobiel](https://github.com/dawciobiel)  
@@ -12,8 +10,6 @@
 - **Version:** 1.0  
 - **License:** GPL (GNU General Public License)  
 - **Script Name:** `uefi_hex_explorer.py`
-
----
 
 ## 📌 Description
 
@@ -24,8 +20,6 @@ It provides:
 - Basic detection of likely boot-related flag values.
 - A lightweight method to inspect low-level firmware settings for reverse engineering, audit, or analysis.
 
----
-
 ## 🧠 Features
 
 - Scans binary UEFI dump for `Setup` signatures.
@@ -33,8 +27,6 @@ It provides:
 - Heuristically interprets binary values for known flags (e.g., enabled/disabled).
 - Searches for well-known UEFI variable names.
 - Highlights values and byte offsets for easier reverse engineering.
-
----
 
 ## 🔧 Usage
 
@@ -50,16 +42,12 @@ python3 uefi_hex_explorer.py
 
 Make sure a UEFI dump file (e.g., `uefi_backup.bin`) is present in the same directory.
 
----
-
 ## 📂 File Structure
 
 ```text
 uefi_hex_explorer.py
 uefi_backup.bin      # <- Your binary firmware/UEFI dump
 ```
-
----
 
 ## 🧬 Function Overview
 
@@ -87,8 +75,6 @@ uefi_backup.bin      # <- Your binary firmware/UEFI dump
   * `CSMSupport`
 * Displays their positions and next 10 bytes of data for inspection.
 
----
-
 ## 📘 Example Output
 
 ```log
@@ -110,12 +96,7 @@ First 50 bytes (main settings):
 Found SecureBoot at position 0x0009B2C8
   Following bytes: 01 00 00 00 00 00 00 00 00 00
 ```
-
----
-
 ## 📄 License
 
 This project is licensed under the **GNU General Public License (GPL)**.
 You are free to use, modify, and distribute this code under the terms of the GPL.
-
----
