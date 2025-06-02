@@ -1,3 +1,4 @@
+# UEFI-Exploration-Tools
 
 **UEFI Boot Analyzer** - Comprehensive UEFI/EFI Boot Configuration Analysis Tool
 
@@ -8,8 +9,10 @@
 - GitHub: https://github.com/dawciobiel
 - Date: June 02, 2025
 - Version: 1.0
-- License:
-```markdownGPL (GNU General Public License)
+- License: GPL (GNU General Public License)
+
+```markdown
+GPL (GNU General Public License)
 
 Copyright (C) 2025 dawciobiel
 
